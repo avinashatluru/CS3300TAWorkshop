@@ -26,9 +26,9 @@ jobs:
         uses: docker/build-push-action@v4
         with:
           push: true
-          tags: your-dockerhub-username/demo-project:latest
+          tags: aviatluru/demoproject:latest
 
       - name: Deploy Docker image (optional if needed)
         run: |
-          docker pull your-dockerhub-username/demo-project:latest
-          docker run -d -p 80:3000 your-dockerhub-username/demo-project:latest
+          docker pull aviatluru/demoproject:latest
+          docker run -d -p 80:3000 aviatluru/demoproject:latest
