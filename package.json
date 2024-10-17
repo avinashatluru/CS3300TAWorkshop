@@ -10,6 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "demo-project": "file:",
     "express": "^4.21.0"
   }
 }
